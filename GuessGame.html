@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess a number</title>
+    <link rel="stylesheet" href="/css/guess.css">
+</head>
+<body>
+    <div class="all-content">
+        <div class="header">
+            <h1>Guess my number</h1>
+        </div>
+
+        <div class="content">
+            <p class="p1" >Guess a random number</p>
+            <input type="number"value="1"class="range1">
+            <input type="number"value="100"class="range2">
+            <button class="new-target">New Target</button>
+            <br>
+            <p class="status"> Please guess a number, enter it and press guess</p><br>
+            <input type="number"class="guess-input">
+            <button class="guess-button">Guess</button>
+            <button class="reset-button">Reset</button>
+        </div>
+
+        <div class="list">
+            <h1>Instructions</h1>
+            <ul>
+                <li>Enter the range of numbers you want the target to be between, and press New Target</li>
+                <li>Enter your guess</li>
+                <li>See if your guess is too high or too low</li>
+                <li>Change your guess</li>
+                <li>The app will tell you when you right and how mamy guesses you had</li>
+            </ul>
+        </div>
+    </div>
+    <script src="/js/guessGame.js"></script>
+</body>
+</html>
